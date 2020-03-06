@@ -1,0 +1,250 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/*Custom properties*/
+:root{
+    --ff-primary: "Playfair Display";
+    --f-secondary: "Lobster";
+
+    --fw-reg: 100;
+    --fw-bold:900;
+
+    --clr-bg: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3:1.25rem;
+    --fs-body:1rem;
+}
+
+body{
+    background: #C0C0C0;
+    color: var(--clr-dark);
+    margin:0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+strong {font-weight: var(--fw-bold);}
+
+/*Typography*/
+h1,h2,h3{
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+
+h1 {font-size: var(--fs-h1);}
+h2 {font-size: var(--fs-h2);}
+h3 {font-size: var(--fs-h3);}
+
+.logo{
+    background: var(--clr-accent);
+    font-family: "Lobster" ;
+    font-weight: 50;
+}
+
+.intro{
+   font-size:var(--fw-reg);
+}
+
+.intro strong{
+   display:block;
+}
+
+/*Introduction module*/
+.hello{
+    width: 150px;
+    float: left;
+}
+
+.world{
+  text-align: left;
+  
+}
+
+.section_title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 65px;
+    padding-bottom: 70px;
+    
+}
+
+.me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    border-radius: 40%;
+}
+
+.about_me-title{
+    text-align: left;
+    padding-left: 170px;
+}
+
+.about_me-subtitle{
+    text-align: center;
+    font-size: 50px;
+    font-family: var(--ff-primary);
+}
+
+#loc{
+   width: 60px;
+   float: right; 
+    margin-right: 400px;
+}
+
+.college{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 400px;
+    font-style: oblique;
+}
+
+.location{
+    justify-content: center;
+}
+
+.para{
+    font-size: 20px;
+    font-family:"Advent Pro";
+    width: 30%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+/* Contact me module*/
+.available{
+    text-align: center;
+    padding-bottom: 40px;
+    font-style: var(--ff-primary);
+}
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    justify-content: center;
+    align-items: center;
+  }
+
+
+#fb,#ig,#linkedin,#twitter{
+    width: 75px;
+    position: relative;
+    
+}
+
+#github,#gmail{
+    width: 55px;
+}
+
+.phn{
+    position: relative;
+      top: 0;
+      left: 0;
+     width: 214px;
+    margin: auto;
+    text-align: center;
+}
+
+.grid-contact{
+    position: relative;
+    top: 50%;
+    left:50.75%;
+    transform: translate(-49.8%, -140%);
+}
+/*Contact me module complete*/
+
+/*Platforms or skills module*/
+
+
+.plat{
+      font-size: 40px;
+      font-style: var(--ff-primary);
+}
+
+.grid-skills {
+    display: grid;
+    
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+    align-items: center;
+  }
+
+#laptop{
+    width: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}  
+
+.grid-skills{
+    position: relative;
+    top: 50%;
+    left:52%;
+    grid-gap: 7px 7px;
+    transform: translate(-50.9%, -220%);
+}
+
+.skill1,.skill3,.skill4{
+    width: 60px;
+}
+
+.skill6{
+    width: 70px;
+}
+
+.skill2{
+    width: 80px;
+}
+
+.skill5{
+    width: 47px;
+}
+.skill7{
+    width: 70px;
+}
+
+.platform{
+    text-align: center;
+}
+
+#boy{
+    width: 70px;
+}
+
+
+/*End module*/
+.quote{
+    text-align: center;
+    font-family: 'Marker Felt' fantasy;
+    font-size: 25px;
+}
+
+
+.end{
+    background: var(--clr-accent);
+    font-family: lobster;
+    text-align: center;
+    font-size: 30px;
+}
+
+
